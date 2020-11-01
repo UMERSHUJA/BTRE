@@ -31,7 +31,7 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver' 'evil-cemetery-36466.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver' 'pure-gorge-54711.herokuapp.com']
 
 
 
