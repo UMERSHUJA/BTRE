@@ -11,7 +11,7 @@ def index(request):
     paginator = Paginator(listings, 6)
     page = request.GET.get('page')
     paged_listings = paginator.get_page(page)
-
+  
     context = {
         'listings': paged_listings,
         
